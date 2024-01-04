@@ -11,8 +11,8 @@ Kalkulator - zadanie testowe
 ### Krok 1: Klonowanie repozytorium
 Skopiuj i uruchom następujące polecenie w terminalu, aby sklonować repozytorium:
 ```bash
-git clone [URL Twojego repozytorium]
-cd [Nazwa sklonowanego katalogu]
+git clone https://github.com/maciekdd/calculatorv1.git
+cd calculatorv1
 ```
 
 ### Krok 2: Uruchomienie Docker Compose
