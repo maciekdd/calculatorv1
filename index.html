@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<section class="calculator">
+    <header class="display">
+        <div class="operation" aria-live="polite"></div>
+        <div class="result" aria-live="polite"></div>
+        <div class="divider my-2"></div>
+    </header>
+
+    <div class="buttons">
+        <button class="button calc-button c" aria-label="clear">C</button>
+        <button class="button calc-button operator" aria-label="divide">÷</button>
+        <button class="button calc-button" aria-label="7">7</button>
+        <button class="button calc-button" aria-label="8">8</button>
+        <button class="button calc-button" aria-label="9">9</button>
+        <button class="button calc-button operator" aria-label="multiply">×</button>
+        <button class="button calc-button" aria-label="4">4</button>
+        <button class="button calc-button" aria-label="5">5</button>
+        <button class="button calc-button" aria-label="6">6</button>
+        <button class="button calc-button operator" aria-label="subtract">-</button>
+        <button class="button calc-button" aria-label="1">1</button>
+        <button class="button calc-button" aria-label="2">2</button>
+        <button class="button calc-button" aria-label="3">3</button>
+        <button class="button calc-button operator" aria-label="add">+</button>
+        <button class="button calc-button zero" aria-label="0">0</button>
+        <button class="button calc-button equals" aria-label="equals">=</button>
+    </div>
+    <button class="button save" id="saveButton" aria-label="save calculation">SAVE</button>
+
+</section>
+
+<script src="js/Calculator.js"></script>
+<script src="js/OperationModule.js"></script>
+<script src="js/InputModule.js"></script>
+<script src="js/DisplayModule.js"></script>
+<script src="js/StorageModule.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
