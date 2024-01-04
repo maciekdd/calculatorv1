@@ -18,6 +18,7 @@ cd calculatorv1
 ### Krok 2: Uruchomienie Docker Compose
 W katalogu projektu uruchom Docker Compose, aby zbudować i uruchomić aplikację:
 ```bash
+sudo chown www-data:www-data calculations.csv 
 docker-compose build
 docker-compose up
 ```
